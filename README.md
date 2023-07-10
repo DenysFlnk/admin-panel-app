@@ -36,7 +36,18 @@ parameters of characters (players), and distribute bans. Implement following fea
   - Bootstrap
 
 ## Setup
-Use Tomcat 9 for servlet container.
+**Use MySQL as DB.**
+<details>
+  <summary>Config for MySQL</summary>
+
+Create MySQL server with credentials:
+login: root
+password: root
+
+Login to MySQL Workbench and execute init.sql in project root.
+</details>
+
+**Use Tomcat 9 for servlet container.**
 <details>
   <summary>Config for Tomcat</summary>
 
