@@ -18,6 +18,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 public class UpdatePlayerTest extends AbstractTest {
 
     private final TestsHelper testsHelper = new TestsHelper();
+
     private final ObjectMapper mapper = new ObjectMapper();
 
     //test1

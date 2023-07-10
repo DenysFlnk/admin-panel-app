@@ -24,6 +24,7 @@ import org.springframework.web.context.WebApplicationContext;
 public abstract class AbstractTest {
 
     WebApplicationContext context;
+
     MockMvc mockMvc;
 
     @Autowired

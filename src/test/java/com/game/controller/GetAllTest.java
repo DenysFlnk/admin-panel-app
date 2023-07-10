@@ -2,12 +2,11 @@ package com.game.controller;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.game.entity.Profession;
-import com.game.entity.Race;
 import com.game.controller.utils.PlayerInfoTest;
 import com.game.controller.utils.TestsHelper;
+import com.game.entity.Profession;
+import com.game.entity.Race;
 import org.junit.Test;
-import org.springframework.http.MediaType;
 import org.springframework.test.web.servlet.MvcResult;
 import org.springframework.test.web.servlet.ResultActions;
 
@@ -20,7 +19,9 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 public class GetAllTest extends AbstractTest {
 
     private final TestsHelper testsHelper = new TestsHelper();
+
     private final ObjectMapper mapper = new ObjectMapper();
+
     private final TypeReference<List<PlayerInfoTest>> typeReference = new TypeReference<List<PlayerInfoTest>>() {
     };
 
